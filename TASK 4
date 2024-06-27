@@ -1,0 +1,16 @@
+import random 
+print('Winning rules of the game ROCK PAPER SCISSORS are :\n'+ "Rock vs Paper -> Paper wins\n"+ "Paper vs Scissor wins \n")
+while True:
+  print("Enter your  choice:"))
+  choice=int(input("Enter your choice:"))
+while choice > 3 or choice < 1:
+   choice=int(input('Enter a Valid choice please"))
+if choice == 1:
+    choice_name='Rock'
+elif choice ==2:
+     choice_name='Paper'
+else:
+     choice_name='Scissors'
+print('User choice is \n',choice_name)
+print('Now its Computers Turn....')
+comp_choice=
